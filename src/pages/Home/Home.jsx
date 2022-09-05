@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "../../Components/Header/Header";
+import { Outlet } from "react-router-dom";
 import './Home.css';
 
 const Home = () => {
   return (
-    <div></div>
+    <main>
+      <Header />
+      <Outlet />
+    </main>
   )
 }
 
