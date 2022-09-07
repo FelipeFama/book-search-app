@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
-import { AppProvider } from './context.jsx';
+import { AppProvider } from './context';
 import './main.css';
 import Home  from "./pages/Home/Home";
 import About from "./pages/About/About";

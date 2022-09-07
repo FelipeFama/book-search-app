@@ -1,5 +1,8 @@
 import React from "react";
-import './BookList';
+import { useGlobalContext } from "../../context";
+import Loading from "../Loader/Loader";
+import coverImg from "../../assets/cover_not_found.jpg";
+import './BookList.css';
 
 const BookList = () => {
   return (
