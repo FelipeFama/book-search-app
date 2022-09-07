@@ -18,7 +18,6 @@ const BookList = () => {
     }
   });
 
-  console.log(booksWithCovers)
   if(loading) return <Loading />;
 
   return (
