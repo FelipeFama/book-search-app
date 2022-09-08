@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
 import { Outlet } from "react-router-dom";
-import './Home.css';
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -12,4 +12,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Home
