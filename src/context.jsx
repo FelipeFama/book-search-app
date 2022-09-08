@@ -9,7 +9,7 @@ const AppProvider = ({children}) => {
   const [loading, setLoading] = useState(true);
   const [resultTitle, setResultTitle] = useState("");
 
-  const fetchBooks = useCallback(async() =>{
+  const fetchBooks = useCallback(async() => {
     setLoading(true);
     try {
       const response = await fetch(`${URL}${searchTerm}`);
