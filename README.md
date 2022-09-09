@@ -1,6 +1,5 @@
 # book-search-app
  
- ## Desktop Layout
  
  ![book-search-app](https://user-images.githubusercontent.com/91050670/189260153-a4eb0f66-918b-4f8b-9b72-b8fee5e284a3.png)
 
