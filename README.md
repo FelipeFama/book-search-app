@@ -20,8 +20,12 @@ npm run dev
 
 - API Link: https://openlibrary.org/
 
+- React with useEffect and useState
+
+- CSS with Flexbox and Grid
+
 ## :wrench: Technologies Used
 
 - Vite
 - React/Javascript
-- CSS/Flexbox/Grid
+- CSS
