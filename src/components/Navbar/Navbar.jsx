@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="brand-and-toggler flex flex-sb">
           <Link to="/" className="navbar-brand flex">
             <img src={logoImg} alt="logo" />
-            <h1 className="text-uppercase fw-7 fs-24 ls-1">BookHub</h1>
+            <h1 className="text-uppercase fw-7 ls-1">BookHub</h1>
           </Link>
           <button
             type="button"
