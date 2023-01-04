@@ -4,7 +4,7 @@ import "./Navbar.css";
 import logoImg from "../../assets/logo.png";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const handleNavbar = () => setToggleMenu(!toggleMenu);
 
@@ -60,5 +60,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;

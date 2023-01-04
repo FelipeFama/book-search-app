@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./BookList.css";
 
-const Book = book => {
+export const Book = (book) => {
   return (
     <section className="book-item flex flex-column flex-sb">
       <figure className="book-item-img">
@@ -33,5 +33,3 @@ const Book = book => {
     </section>
   );
 };
-
-export default Book;

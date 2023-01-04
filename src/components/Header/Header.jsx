@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import SearchForm from "../SearchForm/SearchForm";
+import { Navbar } from "../Navbar/Navbar";
+import { SearchForm } from "../SearchForm/SearchForm";
 import "./Header.css";
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className="header">
       <Navbar />
@@ -22,5 +22,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

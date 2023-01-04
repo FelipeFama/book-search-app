@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useGlobalContext } from "../../context";
 import "./SearchForm.css";
 
-const SearchForm = () => {
+export const SearchForm = () => {
   const { setSearchTerm, setResultTitle } = useGlobalContext();
   const searchText = useRef("");
   const navigate = useNavigate();
@@ -46,5 +46,3 @@ const SearchForm = () => {
     </div>
   );
 };
-
-export default SearchForm;
