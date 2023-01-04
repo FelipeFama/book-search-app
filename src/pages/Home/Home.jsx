@@ -4,9 +4,11 @@ import { Outlet } from "react-router-dom";
 
 export const Home = () => {
   return (
-    <main>
+    <>
       <Header />
-      <Outlet />
-    </main>
+      <main>
+        <Outlet />
+      </main>
+    </>
   );
 };

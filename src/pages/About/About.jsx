@@ -11,10 +11,10 @@ export const About = () => {
         </div>
 
         <div className="about-content grid">
-          <div className="about-img">
+          <figure className="about-img">
             <img src={aboutImg} alt="library stand" />
-          </div>
-          <div className="about-text">
+          </figure>
+          <article className="about-text">
             <h2 className="about-title fs-26 ls-1">About Bookhub</h2>
             <p className="fs-17">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
@@ -28,7 +28,7 @@ export const About = () => {
               iusto dolorem ducimus molestias consequuntur optio! Natus
               asperiores recusandae repellendus explicabo obcaecati.
             </p>
-          </div>
+          </article>
         </div>
       </div>
     </section>
